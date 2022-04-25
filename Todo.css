@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+    color: rgb(255, 255, 255);
+  }
+   
+  body {
+    background: #031311;
+    overflow: auto;
+    /* background-image: url(bk.jpg); */
+    background-image: url(bk.jpg);
+
+      height: 100vh;
+      background-size: cover;
+      overflow: hidden;
+  }
+   
+  h1{
+     text-align: center;
+     margin: 5%;
+     font-size: 3rem;
+     text-decoration: underline;
+  }
+   
+  ul {
+    text-align: left;
+    padding-left: 10%;
+    padding: 7%;
+    font-size: 2rem;
+    list-style: circle;
+  }
+   
+  li:hover{
+    color:rgb(249, 3, 3);
+    margin: 4%;
+    transition: 2.5s ease;
+    cursor: pointer;
+  }
+  
